@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Caladea:400,400i,700,700i&display=swap" rel="stylesheet">
+		<link rel='stylesheet' type='text/css' media='screen' href='../button.css'>
+		<link rel="stylesheet" type="text/css" href="game.css">
+	</head>
+	<body>
+		<div id="button">
+			<img src="../SVG/menu-botton.svg">
+			<div id="button-link">
+				<a href="../index.html">Portfolio</a>
+				<a href="../Project/Project-page.html" >Projects</a>
+				<a href="../1-Chicken-Flex/recipe.html" >Recipe (Flex)</a>
+				<a href="../2-Chicken-Grid/index.html">Recipe (Grid)</a>
+				<a href="../3-Blog/index.html">Blog</a>
+				<a href="../4-Login-Register/register.html">Register & Login</a>
+				<a href="../5-Games/index.html" id="button-selected">Game</a>
+				
+			</div>
+		</div>
+		<!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+		<div class="header">
+			<h1>Square Game</h1>
+			<h2>Control</h2>
+		</div>
+		<div class="info-grid">
+			<div id ="head">Number of box:</div> 
+			<div><input type="text" name="numbox" id="numbox"></div>
+			<div>
+				<select name="color" id = "color">
+  					<option value="red">Red</option>
+  					<option value="blue">Blue</option>
+  					<option value="green">Green</option>
+				</select>
+			</div>
+			<div class="button">
+				<button id="start">Start</button>
+			</div>
+			<div id="timerClock"> Timer:
+				<div id="clock"></div>
+			</div>
+		</div>
+		<div id="squares-container">
+			<div id="squares-layer"></div>
+		</div>
+	
+	</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    background-color: #FFDAB9;
+    text-align: center;
+    font-family: 'Caladea';
+}
+h1{
+    background-color:#D02947;
+    color: white;
+    font-size: 50pt;
+    border-bottom: 10px;
+    border-top: 10px;
+    margin: 50px auto 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+#chicken{
+    text-align: center;
+}
+#Ingredients{
+border: 3px dashed lightcoral;
+padding: 5px;
+}
+p{
+    background-color: #D02947;
+    font-size: 20pt;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    padding: 8px;
+}
+ul {
+    width: 80%;
+    max-width: 380px;
+    margin: 20px auto;
+}
+ol{
+    text-align: center;
+    color: #D02947;
+    width: 80%;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 0px;
+}
+ol>img{
+    border: 3px dashed lightcoral;
+    padding: 5px;
+    width: 70%;
+    max-width: 450px;
+    height: 70%;
+    max-height: 280px;
+}
+li{
+    text-align: left;
+    font-size: 16pt;
+    font-weight: normal;
+    color: #D02947;
+    margin: 10px auto;
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.flex_container>div img{
+    border: 3px dashed lightcoral;
+    position: relative;
+    padding: 3px;
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.flex_container>div{
+    position: relative;
+    height: 280px;
+    width: 280px;
+}
+#one{
+    top:25px;
+    left: 30px;
+    z-index: -3;
+}
+#three{
+    bottom: -20px;
+    right: 30px;
+    z-index: -3;
+}
+#four{
+    top:-5px;
+    right: 55px;
+    z-index: 5;
+}
+.link{
+    background-color: lightcoral;
+    font-size: 16pt;
+    padding: 8px;
+    color: #D02947;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+} 
+a:link{
+    color:salmon;
+}
+a:visited{
+    color: lightpink;
+}
+a:hover{
+    color: #D02947;
+}

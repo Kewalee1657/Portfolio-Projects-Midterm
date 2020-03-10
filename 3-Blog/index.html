@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Blogger</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='../button.css'>
+	<link href="https://fonts.googleapis.com/css?family=Caladea:400,400i,700,700i&display=swap" rel="stylesheet">
+	<script src='main.js'></script>
+</head>
+<body>
+	<div id="button">
+        <img src="../SVG/menu-botton.svg">
+        <div id="button-link">
+            <a href="../index.html">Portfolio</a>
+            <a href="../Project/Project-page.html" >Projects</a>
+            <a href="../1-Chicken-Flex/recipe.html" >Recipe (Flex)</a>
+            <a href="../2-Chicken-Grid/index.html">Recipe (Grid)</a>
+            <a href="../3-Blog/index.html" id="button-selected">Blog</a>
+            <a href="../4-Login-Register/register.html">Register & Login</a>
+            <a href="../5-Games/index.html">Game</a>
+            
+        </div>
+    </div>
+	<fieldset>
+		<legend>
+			<div id="header">
+				<div id="title">BLOG</div>
+			</div>
+		</legend>
+		<div id="post1" class="box"></div>
+		<hr>
+		<div id="reply1" class="box"></div>
+		<hr>
+		<div id="reply2" class="box"></div>
+		<hr>
+		<textarea name="text1" id="text1"></textarea> 
+		<br/>
+		<button type="button" onclick="postFunction()">Post</button>
+		<button type="button" onclick="clearFunction()">Clear</button>
+	</fieldset>
+	
+	
+</body>
+</html>

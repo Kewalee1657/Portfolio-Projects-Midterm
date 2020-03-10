@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Register</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='../button.css'>
+	<link href="https://fonts.googleapis.com/css?family=Caladea:400,400i,700,700i&display=swap" rel="stylesheet">
+	<script src='register.js'></script>
+</head>
+<body>
+	<div id="button">
+        <img src="../SVG/menu-botton.svg">
+        <div id="button-link">
+            <a href="../index.html">Portfolio</a>
+            <a href="../Project/Project-page.html" >Projects</a>
+            <a href="../1-Chicken-Flex/recipe.html" >Recipe (Flex)</a>
+            <a href="../2-Chicken-Grid/index.html">Recipe (Grid)</a>
+            <a href="../3-Blog/index.html">Blog</a>
+            <a href="../4-Login-Register/register.html" id="button-selected">Register & Login</a>
+            <a href="../5-Games/index.html">Game</a>
+            
+        </div>
+    </div>
+	<fieldset>
+		<legend>Register</legend>
+		<form name="myForm" id="myForm" action="login.html">
+			<div id="errormsg"></div>
+			<div class="regis-grid">
+				<div class="head">First name :</div> 
+				<div><input type="text" name="firstname" required></div>
+				<div class="head">Last name :</div> 
+				<div><input type="text" name="lastname" required></div>
+				<div class="head">Gender :</div>
+				<div>
+					<input type="radio" name="gender" value="male" required>Male
+					<input type="radio" name="gender" value="female" required>Female
+					<input type="radio" name="gender" value="female" required>Other
+				</div>
+				<div class="head">Birthday :</div>
+				<div><input type="date" name="bday" value="" required></div>
+				<div class="head">Email address :</div>
+				<div><input type="email" name="email" required></div>
+				<div class="head">Username :</div> 
+				<div><input type="text" name="username" required></div>
+				<div class="head">Password :</div> 
+				<div><input type="password" name="password1" required></div>
+				<div class="head">Retype Password :</div> 
+				<div><input type="password" name="password2" required></div>
+			</div>
+			<div class="button-layout">
+				<input class="button" type="submit" value="Register" >
+				<input class="button" type="reset" value="Reset" >
+			</div>
+		</form>
+	</fieldset>
+</body>
+</html>

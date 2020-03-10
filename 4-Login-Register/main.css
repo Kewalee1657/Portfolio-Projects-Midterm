@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: #FFDAB9;
+    font-family: 'Caladea';
+    font-size: 16pt;
+    color: lightcoral;
+    text-align: center;
+    line-height: 16pt;
+}
+fieldset{
+    margin: 50px auto;
+    border: 4px solid #D02947;
+    width: 40%;
+    border-radius: 20px;
+}
+legend{
+    font-size: 40pt;
+    font-weight: bold;
+    color: white;
+    background-color: #D02947;
+    padding: 30px;
+    margin: 50px auto 20px auto;
+    width: 220px;
+    border-radius: 10pt;
+    box-shadow: 15px 15px 30px 0 rgba(248, 5, 78, 0.151);
+}
+#errormsg {
+	height: 20px;
+    margin: 10px auto;
+    color: red;
+}
+.regis-grid{
+    display: grid;
+  	grid-template-columns: 200px 300px;
+  	grid-template-rows: auto;
+  	grid-gap: 10pt;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    text-align: left;
+    font-size: 18pt;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    color: lightcoral;
+    font-size: 16pt;
+    font-family: 'Caladea';
+    border: 0 ;
+    border-radius: 10px;
+}
+input[type=radio]{
+    width: 10%;
+}
+.button-layout{
+    justify-content: center;
+    margin: 30px auto;
+    width: 90%;
+}
+.button{
+    background-color: #D02947;
+    color: white;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    margin: auto 20px;
+}
+.login-grid{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: auto auto;
+    grid-gap: 10pt;
+    justify-content: center;
+    align-items: center;
+}
